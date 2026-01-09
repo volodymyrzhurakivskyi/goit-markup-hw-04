@@ -157,8 +157,8 @@ ul {
 .nav-link.studio::after {
   content: "";
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: -1%;
+  /* left: 0; */
   display: block;
   border-radius: 2px;
   width: 100%;
@@ -283,6 +283,7 @@ ul {
   border: 1px solid var(--light-slate);
   border-radius: 4px;
   max-width: 264px;
+  height: 112px;
   background: var(--cloud);
   padding: 24px 0;
 }
@@ -459,6 +460,8 @@ ul {
 .portfolio-description {
   position: absolute;
   top: 0;
+  left: 0;
+  width: 100%;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
